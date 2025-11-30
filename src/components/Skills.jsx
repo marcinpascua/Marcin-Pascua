@@ -5,7 +5,7 @@ export default function Skills() {
   return (
     <div id="skills">
       <div>
-        <h1 className="text-5xl text-[#0FD4DB] font-bold flex align-items justify-center mb-20 mt-2">Skills</h1>
+        <h1 className="text-5xl text-[#0FD4DB] font-bold flex align-items justify-center mb-20 mt-20">Skills</h1>
       </div>
 
       <div className="flex flex-col justify-between gap-5">

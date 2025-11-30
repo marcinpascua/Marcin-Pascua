@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Layout from "./components/Layout";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
+import Achievements from "./components/Achievements";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <AboutMe />
         <Education />
         <Skills />
+        <Achievements />
       </Layout>
     </>
   );

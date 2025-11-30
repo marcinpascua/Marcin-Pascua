@@ -55,7 +55,7 @@ export default function AboutMe() {
       <div id="info-self" className="flex flex-row justify-between p-5 font-poppins">
         <div className="info w-2/4 mt-32">
             <p className="text-5xl mt-32 ml-24">I'm<span className="font-bold bg-gradient-to-r from-[#0FD4DB] to-[#003615] bg-clip-text text-transparent"> 21 </span>years old</p>
-            <p className="text-5xl mt-32 ml-80">I love <span className="font-bold bg-gradient-to-r from-[#0FD4DB] to-[#003615] bg-clip-text text-transparent"> dogs </span></p>
+            <p className="text-5xl mt-32 ml-72">I love <span className="font-bold bg-gradient-to-r from-[#0FD4DB] to-[#003615] bg-clip-text text-transparent"> dogs </span></p>
             <p className="text-5xl mt-32 ml-24">I love color <span className="font-bold bg-gradient-to-r from-[#0FD4DB] to-[#003615] bg-clip-text text-transparent">green</span></p>
         </div>
 
