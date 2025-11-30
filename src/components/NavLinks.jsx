@@ -12,7 +12,7 @@
               href={`#${name.toLowerCase()}`}
               className="font-light sm:text-sm md:text-md lg:text-lg text-white 
             px-3 py-1 transition-all duration-300
-            hover:text-transparent hover:bg-gradient-to-r hover:from-[#0FD4DB] hover:to-[#003615] hover:bg-clip-text"
+            hover:text-[#0FD4DB]"
             >
               {name}
             </a>

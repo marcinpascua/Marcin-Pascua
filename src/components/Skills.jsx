@@ -16,7 +16,7 @@ export default function Skills() {
 
         <SkillCard
           title="Backend Development"
-          badge={["Microsoft SQL Server", "PHP", "Laravel"]}
+          badge={["SQL Server Management Studio", "PHP", "Laravel"]}
         />
 
         <SkillCard
