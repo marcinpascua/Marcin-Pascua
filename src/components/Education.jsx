@@ -4,9 +4,14 @@ import EducCard from "./EducCard";
 export default function Education() {
   return (
     <div id="education" className="education mx-auto w-fit p-10">
-      <h1 className="text-5xl text-[#0FD4DB] font-bold flex align-items justify-center mb-20 mt-20">
-        Education
-      </h1>
+      <div className="flex flex-row">
+        <hr class="flex-grow border-gray-400 mt-10 ml-5 mr-5"></hr>
+        <h1 className="text-5xl text-[#0FD4DB] font-bold flex align-items justify-center mb-20 mt-2">
+          Education
+        </h1>
+        <hr class="flex-grow border-gray-400 mt-10 ml-5 mr-5"></hr>
+      </div>
+
       <div className="education-section flex flex-row justify-between m-20 gap-10">
         <EducCard
           logo={"/ccs-logo.png"}
