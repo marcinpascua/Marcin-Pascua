@@ -1,6 +1,5 @@
 import React from "react";
 import SlideLeftComponent from "./SlideLeftComponent";
-import SlideRightComponent from "./SlideRightComponent";
 import SlideUpComponent from "./SlideUpComponent";
 
 export default function AboutMe() {

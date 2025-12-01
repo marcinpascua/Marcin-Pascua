@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 const Card2 = ({ logo, image, title, award, year }) => {
   return (
     <motion.div
-      className="min-w-[60%] max-w-[75%] relative rounded-xl overflow-hidden cursor-pointer"
+      className="min-w-[60%] max-w-[350px] relative rounded-xl overflow-hidden cursor-pointer"
       whileHover={{ scale: 1.03 }}
       transition={{ type: "spring", stiffness: 200, damping: 20 }}
     >
-      <div className="flex flex-row">
-        <div className="relative">
+      <div className="flex flex-row ">
+        <div className="relative ">
           <img
             src={image}
             alt={title}
