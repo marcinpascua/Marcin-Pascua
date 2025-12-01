@@ -3,7 +3,7 @@ import SkillCard from "./SkillCard";
 
 export default function Skills() {
   return (
-    <div id="skills">
+    <div id="skills" className="text-white">
       <div>
         <h1 className="text-5xl text-[#0FD4DB] font-bold flex align-items justify-center mb-20 mt-20">Skills</h1>
       </div>

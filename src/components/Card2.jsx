@@ -1,20 +1,41 @@
 import React from "react";
+import { motion } from "framer-motion";
 
-export default function Card2({ logo, title, award, year }) {
+const Card2 = ({ logo, image, title, award, year }) => {
   return (
-    <div className="card font-poppins w-1/3 mx-auto h-full border border-[#0FD4DB] rounded-lg p-5 justify-between">
-      <div className="school-logo flex justify-center items-center mb-2">
-        <img className="w-24 h-24" src={logo} alt="school logo" />
-      </div>
-
-      <div>
-        <p className="text-lg font-bold mt-5 text-justify">{title}</p>
-        
-      </div>
-
+    <motion.div
+      className="min-w-[60%] max-w-[75%] relative rounded-xl overflow-hidden cursor-pointer"
+      whileHover={{ scale: 1.03 }}
+      transition={{ type: "spring", stiffness: 200, damping: 20 }}
+    >
       <div className="flex flex-row">
-        <p className="text-md mt-3">{award}<span className="italic text-sm ml-64">{year}</span></p>
+        <div className="relative">
+          <img
+            src={image}
+            alt={title}
+            className="w-[800px] h-[300px] object-cover"
+          />
+        </div>
+
+        <div>
+          <img className="w-16 h-16 absolute top-3 right-3" src={logo} />
+        </div>
+
+        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#000] to-[rgb(0,0,0,0.0001)] p-5 rounded-b-xl">
+          <h1 className="text-2xl leading-none text-white/70 font-bold leading-[34px] mt-4">
+            {title}
+          </h1>
+
+          <div className="mt-3">
+            <span className="text-md py-1 px-3 bg-gradient-to-r from-[#0FD4DB] to-[#003615] rounded-full text-white font-bold">
+              {award}
+            </span>
+            <p className="absolute bottom-5 right-5 italic text-sm">{year}</p>
+          </div>
+        </div>
       </div>
-    </div>
+    </motion.div>
   );
-}
+};
+
+export default Card2;

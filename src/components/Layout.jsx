@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Layout({ children }) {
   return (
-    <div className="min-h-screen mx-auto bg-[#000717]">
+    <div className="min-h-screen bg-[#000717] overflow-x-hidden">
       {children}
     </div>
   );

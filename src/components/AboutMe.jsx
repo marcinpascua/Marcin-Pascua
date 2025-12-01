@@ -1,8 +1,12 @@
 import React from "react";
+import SlideLeftComponent from "./SlideLeftComponent";
+import SlideRightComponent from "./SlideRightComponent";
+import SlideUpComponent from "./SlideUpComponent";
 
 export default function AboutMe() {
   return (
     <>
+    <SlideUpComponent>
       <div
         id="about"
         className="aboutme flex flex-col sm:flex-row items-start px-10 gap-5 bg-cover"
@@ -15,8 +19,7 @@ export default function AboutMe() {
         <div className="h1 flex flex-col mt-28 font-poppins text-white w-full sm:w-2/3 ">
           <h1 className="lg:text-[130px] m-0 sm:text-[50px]">
             Hello! I'm
-            <span className="lg:text-[130px] sm:text-[90px] bg-gradient-to-r from-[#0FD4DB] to-[#003615] bg-clip-text text-transparent leading-none">
-              {" "}
+            <span className="ml-2 lg:text-[130px] sm:text-[90px] leading-none bg-gradient-to-r from-[#0FD4DB] to-[#003615] bg-clip-text text-transparent transition-all duration-500 hover:from-[#003615] hover:to-[#0FD4DB]">
               Chin
             </span>
           </h1>
@@ -51,18 +54,42 @@ export default function AboutMe() {
           </div>
         </div>
       </div>
-      
-      <div id="info-self" className="flex flex-row justify-between p-5 font-poppins">
-        <div className="info w-2/4 mt-32">
-            <p className="text-5xl mt-32 ml-24">I'm<span className="font-bold bg-gradient-to-r from-[#0FD4DB] to-[#003615] bg-clip-text text-transparent"> 21 </span>years old</p>
-            <p className="text-5xl mt-32 ml-72">I love <span className="font-bold bg-gradient-to-r from-[#0FD4DB] to-[#003615] bg-clip-text text-transparent"> dogs </span></p>
-            <p className="text-5xl mt-32 ml-24">I love color <span className="font-bold bg-gradient-to-r from-[#0FD4DB] to-[#003615] bg-clip-text text-transparent">green</span></p>
-        </div>
+      </SlideUpComponent>
 
-        <div className="collage w-2/4">
-          <img src="/chin-collage.png" alt="Chin collage" className=""></img>
-        </div>
+      <SlideLeftComponent>
+      <div
+        id="info-self"
+        className="flex flex-row justify-between p-5 font-poppins"
+      >
+          <div className="info w-2/4 mt-32 text-white">
+            <p className="text-5xl mt-32 ml-24">
+              I'm
+              <span className="font-bold bg-gradient-to-r from-[#0FD4DB] to-[#003615] bg-clip-text text-transparent">
+                {" "}
+                21{" "}
+              </span>
+              years old
+            </p>
+            <p className="text-5xl mt-32 ml-72">
+              I love{" "}
+              <span className="font-bold bg-gradient-to-r from-[#0FD4DB] to-[#003615] bg-clip-text text-transparent">
+                {" "}
+                dogs{" "}
+              </span>
+            </p>
+            <p className="text-5xl mt-32 ml-24">
+              I love color{" "}
+              <span className="font-bold bg-gradient-to-r from-[#0FD4DB] to-[#003615] bg-clip-text text-transparent">
+                green
+              </span>
+            </p>
+          </div>
+
+          <div className="collage w-2/4">
+            <img src="/chin-collage.png" alt="Chin collage" className="max-w-full h-auto"></img>
+          </div>
       </div>
+        </SlideLeftComponent>
     </>
   );
 }

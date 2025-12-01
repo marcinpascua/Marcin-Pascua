@@ -12,7 +12,7 @@ export default function Education() {
         <hr class="flex-grow border-gray-400 mt-10 ml-5 mr-5"></hr>
       </div>
 
-      <div className="education-section flex flex-row justify-between mt-10 m-20 gap-10 mb-5">
+      <div className="education-section flex flex-row justify-between mt-10 m-20 gap-10 mb-5 text-white">
         <Card
           logo={"/ccs-logo.png"}
           title={"Calamba Central School"}
