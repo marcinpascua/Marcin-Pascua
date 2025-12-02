@@ -22,7 +22,7 @@ const Card2 = ({ logo, image, title, award, year }) => {
         </div>
 
         <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#000] to-[rgb(0,0,0,0.0001)] p-5 rounded-b-xl">
-          <h1 className="text-2xl leading-none text-white/70 font-bold leading-[34px] mt-4">
+          <h1 className="text-xl md:text-2xl leading-none text-white/70 font-bold leading-[34px] mt-4">
             {title}
           </h1>
 
