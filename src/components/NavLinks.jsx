@@ -5,7 +5,7 @@
 
     return (
       <>
-        <nav className="w-auto font-poppins flex flex-row gap-8 items-center justify-center border border-transparent bg-white/20 p-4 rounded-full">
+        <nav className="w-auto font-poppins flex flex-row gap-8 items-center border border-transparent bg-white/20 p-4 rounded-full">
           {links.map((name, i) => (
             <a
               key={i}
