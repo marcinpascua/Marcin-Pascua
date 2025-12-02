@@ -14,7 +14,7 @@ export default function AboutMe() {
             <img src="/chin-pic.png" alt="chin picture" />
           </div>
 
-          <div className="h1 flex flex-col mt-10 font-poppins text-white w-full sm:w-2/3 overflow-x-hidden">
+          <div className="h1 flex flex-row mt-10 font-poppins text-white w-full sm:w-2/3 overflow-x-hidden">
             <h1 className="text-[100px] md:text-[130px] m-0 flex flex-row ]">
               Hello! I'm
               <span className="ml-3 mt-2 text-[100px] lg:text-[130px] leading-none bg-gradient-to-r from-[#0FD4DB] to-[#003615] bg-clip-text text-transparent transition-all duration-500 hover:from-[#003615] hover:to-[#0FD4DB]">
