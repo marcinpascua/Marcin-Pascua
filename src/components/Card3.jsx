@@ -14,7 +14,7 @@ export default function Card3({ image, title, subtitle, badge, pdf }) {
           <img
             src={image}
             alt={title}
-            className="w-[800px] h-[300px] object-cover rounded-xl"
+            className="w-[800px] h-[300px] object-cover rounded-xl flex flex-wrap"
           />
         </div>
 

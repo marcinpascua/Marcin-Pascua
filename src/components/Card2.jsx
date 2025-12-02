@@ -13,7 +13,7 @@ const Card2 = ({ logo, image, title, award, year }) => {
           <img
             src={image}
             alt={title}
-            className="w-[800px] h-[300px] object-cover"
+            className="w-[800px] h-[300px] object-cover flex flex-wrap"
           />
         </div>
 
