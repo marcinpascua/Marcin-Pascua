@@ -15,9 +15,9 @@ export default function AboutMe() {
           </div>
 
           <div className="h1 flex flex-col mt-10 font-poppins text-white w-full sm:w-2/3 overflow-x-hidden">
-            <h1 className="text-[140px] md:text-[130px] m-0 ]">
+            <h1 className="text-[100px] md:text-[130px] m-0 flex flex-row ]">
               Hello! I'm
-              <span className="ml-2 lg:text-[130px] sm:text-[90px] leading-none bg-gradient-to-r from-[#0FD4DB] to-[#003615] bg-clip-text text-transparent transition-all duration-500 hover:from-[#003615] hover:to-[#0FD4DB]">
+              <span className="ml-5 mt-2 text-[100px] lg:text-[130px] leading-none bg-gradient-to-r from-[#0FD4DB] to-[#003615] bg-clip-text text-transparent transition-all duration-500 hover:from-[#003615] hover:to-[#0FD4DB]">
                 Chin
               </span>
             </h1>
@@ -32,11 +32,11 @@ export default function AboutMe() {
 
             <div className="mt-5">
               <a
-                href="#education"
+                href="mailto:pascua.marcin1@gmail.com"
                 target="_self"
-                className="text-[30px] md:text-xl text-white py-3 px-5 inline-block border border-white rounded-full hover:bg-gradient-to-r from-[#0FD4DB] to-[#003615] hover:border-[#361A23] hover:text-white transition-all duration-300"
+                className="text-[30px] md:text-lg text-white py-3 px-5 inline-block border border-white rounded-full hover:bg-gradient-to-r from-[#0FD4DB] to-[#003615] hover:border-[#361A23] hover:text-white transition-all duration-300"
               >
-                Learn More
+                Contact Me
               </a>
             </div>
 
