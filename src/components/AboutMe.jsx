@@ -15,9 +15,9 @@ export default function AboutMe() {
           </div>
 
           <div className="h1 flex flex-col mt-10 font-poppins text-white w-full sm:w-2/3 overflow-x-hidden">
-            <h1 className="text-[140px] md:text-[130px] m-0 ]">
+            <h1 className="text-[140px] sm:text-[90px] md:text-[130px] m-0 ]">
               Hello! I'm
-              <span className="ml-2 lg:text-[130px] sm:text-[90px] leading-none bg-gradient-to-r from-[#0FD4DB] to-[#003615] bg-clip-text text-transparent transition-all duration-500 hover:from-[#003615] hover:to-[#0FD4DB]">
+              <span className="ml-2  sm:text-[90px]  lg:text-[130px] leading-none bg-gradient-to-r from-[#0FD4DB] to-[#003615] bg-clip-text text-transparent transition-all duration-500 hover:from-[#003615] hover:to-[#0FD4DB]">
                 Chin
               </span>
             </h1>
