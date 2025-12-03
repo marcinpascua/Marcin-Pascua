@@ -10,12 +10,12 @@ export default function AboutMe() {
           className="aboutme flex flex-col md:flex-row lg:flex-row items-start p-10 gap-5 bg-cover"
           style={{ backgroundImage: "url('/blur effect.png')" }}
         >
-          <div className="chinpic sm:w-auto max-w-full md:w-1/3 lg:w-1/3 flex flex-wrap items-center justify-center">
-            <img src="/chin-pic.png" alt="chin picture" />
+          <div className="chinpic flex flex-wrap items-center justify-center">
+            <img src="/chin-pic.png" className="max-w-full h-auto" />
           </div>
 
           <div className="h1 flex flex-col mt-10 font-poppins text-white w-full sm:w-2/3 overflow-x-hidden">
-            <h1 className="text-[140px] md:text-[130px] m-0 ]">
+            <h1 className="text-[60px] sm:text-[80px]  md:text-[130px] m-0 ]">
               Hello! I'm
               <span className="ml-2 lg:text-[130px] sm:text-[90px] leading-none bg-gradient-to-r from-[#0FD4DB] to-[#003615] bg-clip-text text-transparent transition-all duration-500 hover:from-[#003615] hover:to-[#0FD4DB]">
                 Chin
