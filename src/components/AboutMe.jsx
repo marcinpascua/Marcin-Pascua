@@ -7,7 +7,7 @@ export default function AboutMe() {
       <SlideUpComponent>
         <div
           id="about"
-          className="aboutme flex sm:flex-col md:flex-row lg:flex-row items-start p-10 gap-5 bg-cover"
+          className="aboutme flex flex-col md:flex-row lg:flex-row items-start p-10 gap-5 bg-cover"
           style={{ backgroundImage: "url('/blur effect.png')" }}
         >
           <div className="chinpic sm:w-full md:w-1/3 lg:w-1/3 flex flex-wrap items-center justify-center">
