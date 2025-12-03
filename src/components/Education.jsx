@@ -5,14 +5,14 @@ import SlideLeftComponent from "./SlideLeftComponent";
 export default function Education() {
   return (
     <SlideLeftComponent>
-      <div id="education" className="education mx-auto w-full p-5 mt-20">
+      <div id="education" className="education mx-auto w-fit p-5 mt-20">
         <div>
           <h1 className="text-5xl text-[#0FD4DB] font-bold flex items-center justify-center mt-2 mb-10">
             Education
           </h1>
         </div>
 
-        <div className="education-section flex flex-row justify-between mt-10 mx-5 md:m-20 gap-7 text-white">
+        <div className="education-section flex flex-row justify-between mt-10 m-20 gap-7 md:gap-10 mb-5 text-white">
           <Card
             logo={"/ccs-logo.png"}
             title={"Calamba Central School"}
