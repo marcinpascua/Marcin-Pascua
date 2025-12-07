@@ -40,7 +40,7 @@ export default function Projects() {
           </h1>
         </div>
 
-        <div className="flex flex-col items-center justify-center h-screen p-5">
+        <div className="flex flex-col items-center justify-center p-5">
           <UIUXCard
             image={"/burger-king-redesign.png"}
             title={"Burger King"}
