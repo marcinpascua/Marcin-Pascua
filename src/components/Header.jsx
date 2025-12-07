@@ -5,7 +5,7 @@ import SlideDownComponent from "./SlideDownComponent";
 export default function Header() {
   return (
     <SlideDownComponent>
-      <header className="flex flex-col md:flex-row lg:flex-row items-center justify-between p-12">
+      <header className="flex flex-col sm:flex-row md:flex-row items-center justify-between p-12">
         <div className="w-28 mb-10 md:mb-0">
           <img src="/chin-logo.png" alt="chin logo" />
         </div>
