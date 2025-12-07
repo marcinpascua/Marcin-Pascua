@@ -20,7 +20,7 @@ export default function UIUXCard({ image, title, year, subtitle, badge }) {
           </h1>
           <p className="italic text-gray-500 text-sm">{year}</p>
 
-          <p className="text-gray-500 mt-10">{subtitle}</p>
+          <p className="text-gray-500 mt-10 text-justify">{subtitle}</p>
 
           <div className="mt-5">
             <SkillCard badge={badge} />

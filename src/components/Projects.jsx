@@ -30,6 +30,16 @@ export default function Projects() {
           }
           badge={["Java"]}
         />
+
+         <ProjCard
+          image={"/beedget.png"}
+          title={"Beedget"}
+          year={"2025"}
+          subtitle={
+            "A simple budget planner system that helps you track your savings and expense. User and admin side are made using C# windows forms"
+          }
+          badge={["C#", "SQL Server Management Studio"]}
+        />
       </div>
 
       {/* UI UX PROJ */}

@@ -27,7 +27,7 @@ export default function ProjCard({ image, title, subtitle, year, badge }) {
           </div>
 
           <div className="">
-            <p className="text-gray-700">{subtitle}</p>
+            <p className="text-gray-700  text-justify">{subtitle}</p>
           </div>
 
           <div className="mb-2">
